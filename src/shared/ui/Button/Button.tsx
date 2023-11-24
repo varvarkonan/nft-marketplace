@@ -10,19 +10,24 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   size: ButtonSize;
   variant: ButtonVariant;
   Icon?: React.VFC<React.SVGProps<SVGSVGElement>>;
+  onClick?: () => void;
   children: string;
 }
 
 export const Button = memo(function Button(props: ButtonProps) {
-  const { className, size, variant, children, Icon = undefined } = props;
+  const { className, size, variant, children, onClick, Icon = undefined } = props;
   const additionals = [className, cls[size], cls[variant]];
   if (Icon !== undefined) {
     return (
-      <button className={classNames(cls.Button, {}, additionals)}>
+      <button className={classNames(cls.Button, {}, additionals)} onClick={onClick}>
         {<Icon className={classNames(cls.icon, {}, [])} />}
         {children}
       </button>
     );
   }
-  return <button className={classNames(cls.Button, {}, [className])}>{children}</button>;
+  return (
+    <button className={classNames(cls.Button, {}, additionals)} onClick={onClick}>
+      {children}
+    </button>
+  );
 });

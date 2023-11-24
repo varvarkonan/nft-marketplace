@@ -15,6 +15,7 @@ const config = (env: EnvVars): Configuration => {
     devServer: {
       static: './',
       open: true,
+      historyApiFallback: true,
     },
     mode: env.production ? 'production' : 'development',
     devtool: env.production ? false : 'eval-cheap-source-map',
