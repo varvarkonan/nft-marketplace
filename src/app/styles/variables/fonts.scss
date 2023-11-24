@@ -1,0 +1,41 @@
+:root{
+  --font-family-work: 'Work Sans', sans-serif;
+  --font-family-space: 'Space Mono', monospace;
+
+  // H1
+  --font-size-h1: 67px;
+  --line-size-h1: 74px;
+  --font-work-h1: var(--font-size-h1) / var(--line-size-h1) var(--font-family-work);
+  --font-space-h1: var(--font-size-h1) / var(--line-size-h1) var(--font-family-space);
+  // H2
+  --font-size-h2: 51px;
+  --line-size-h2: 56px;
+  --font-work-h1: var(--font-size-h1) / var(--line-size-h1) var(--font-family-work);
+  --font-space-h1: var(--font-size-h1) / var(--line-size-h1) var(--font-family-space);
+  // H3
+  --font-size-h3: 38px;
+  --line-size-h3: 46px;
+  --font-work-h1: var(--font-size-h1) / var(--line-size-h1) var(--font-family-work);
+  --font-space-h1: var(--font-size-h1) / var(--line-size-h1) var(--font-family-space);
+  // H4
+  --font-size-h4: 28px;
+  --line-size-h4: 39px;
+  --font-work-h1: var(--font-size-h1) / var(--line-size-h1) var(--font-family-work);
+  --font-space-h1: var(--font-size-h1) / var(--line-size-h1) var(--font-family-space);
+  // H5
+  --font-size-h5: 22px;
+  --line-size-h5: 31px;
+  --font-work-h1: var(--font-size-h1) / var(--line-size-h1) var(--font-family-work);
+  --font-space-h1: var(--font-size-h1) / var(--line-size-h1) var(--font-family-space);
+  // Base (Body)
+  --font-size-base: 16px;
+  --line-size-base: 22px;
+  --font-work-h1: var(--font-size-h1) / var(--line-size-h1) var(--font-family-work);
+  --font-space-h1: var(--font-size-h1) / var(--line-size-h1) var(--font-family-space);
+  // Caption
+  --font-size-caption: 12px;
+  --line-size-caption: 13px;
+  --font-work-h1: var(--font-size-h1) / var(--line-size-h1) var(--font-family-work);
+  --font-space-h1: var(--font-size-h1) / var(--line-size-h1) var(--font-family-space);
+}
+

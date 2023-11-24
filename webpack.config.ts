@@ -17,7 +17,7 @@ const config = (env: EnvVars): Configuration => {
       open: true,
     },
     mode: env.production ? 'production' : 'development',
-    devtool: false,
+    devtool: env.production ? false : 'eval-cheap-source-map',
     plugins: [
       new HtmlWebpackPlugin({
         title: 'asd',
