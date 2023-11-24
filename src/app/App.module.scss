@@ -2,7 +2,7 @@ $body-color: red;
 
 div {
   color: $body-color;
-  background: green;
+  background: var(--gradient-orange);
 }
 
 .testcls {
