@@ -1,6 +1,6 @@
 import { type ReactNode, useState } from 'react';
 import cls from './App.module.scss';
-import { Button } from 'src/shared/ui/Button/Button';
+import { Button } from '@/shared/ui/Button/Button';
 
 export const App = (): ReactNode => {
   const [value, setValue] = useState(0);

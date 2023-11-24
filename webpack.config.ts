@@ -39,9 +39,7 @@ const config = (env: EnvVars): Configuration => {
         {
           test: /\.s[ac]ss$/i,
           use: [
-            // Creates `style` nodes from JS strings
             env.production ? MiniCssExtractPlugin.loader : 'style-loader',
-            // Translates CSS into CommonJS
             {
               loader: 'css-loader',
               options: {
@@ -52,7 +50,6 @@ const config = (env: EnvVars): Configuration => {
                 },
               },
             },
-            // Compiles Sass to CSS
             'sass-loader',
           ],
           exclude: /node_modules/,
@@ -64,6 +61,9 @@ const config = (env: EnvVars): Configuration => {
       preferAbsolute: true,
       modules: ['node_modules', './src'],
       mainFiles: ['index'],
+      alias: {
+        '@': path.resolve('./src'),
+      },
     },
     output: {
       filename: '[name].[contenthash].js',
