@@ -37,6 +37,11 @@ const config = (env: EnvVars): Configuration => {
           exclude: /node_modules/,
         },
         {
+          test: /\.svg$/i,
+          issuer: /\.[jt]sx?$/,
+          use: ['@svgr/webpack'],
+        },
+        {
           test: /\.s[ac]ss$/i,
           use: [
             env.production ? MiniCssExtractPlugin.loader : 'style-loader',
