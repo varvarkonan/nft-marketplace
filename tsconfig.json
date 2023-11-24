@@ -44,6 +44,6 @@
       "module": "CommonJS"
     }
   },
-  "include": ["./**/*.ts", "**/*.tsx"],
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
   "exclude": []
 }
