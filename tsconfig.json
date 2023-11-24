@@ -28,6 +28,9 @@
     "sourceMap": true,
     "outDir": "dist",
 
+    // editor support
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+
     // interop constraints
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
