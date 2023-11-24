@@ -1,5 +1,6 @@
 import { type ReactNode, useState } from 'react';
 import cls from './App.module.scss';
+import { Button } from 'src/shared/ui/Button/Button';
 
 export const App = (): ReactNode => {
   const [value, setValue] = useState(0);
@@ -7,14 +8,14 @@ export const App = (): ReactNode => {
     <div>
       <p>Hello</p>
       <input type="text" value={value} />
-      <button
+      <Button
         onClick={() => {
           setValue(value + 1);
         }}
         className={cls.testcls}
       >
         Click me
-      </button>
+      </Button>
     </div>
   );
 };
