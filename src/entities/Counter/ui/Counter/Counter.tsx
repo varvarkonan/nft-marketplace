@@ -4,6 +4,7 @@ import { classNames } from '@/shared/lib/helpers/classNames/classNames';
 import { Button } from '@/shared/ui/Button';
 import { useStore } from 'effector-react';
 import { $counter, $counterCombined, $counterText, minus, plus } from '../../model';
+import { Text } from '@/shared/ui/Button/Text';
 
 interface CounterProps {
   className?: string;
@@ -17,11 +18,9 @@ export const Counter = memo(function Counter(props: CounterProps) {
 
   return (
     <div className={classNames(cls.Counter, {}, [className])}>
-      <p>counter: {counter}</p>
-      <p>counterText: {counterText}</p>
-      <p>
-        counterCombined: {counterCombined.counter}, {counterCombined.text}
-      </p>
+      <Text text={`counter: ${counter}`} />
+      <Text text={`counterText: ${counterText}`} />
+      <Text text={`counterCombined: ${counterCombined.counter}, ${counterCombined.text}`} />
       <Button onClick={plus} size="tertiary" variant="filled">
         Increment
       </Button>

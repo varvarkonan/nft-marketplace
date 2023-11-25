@@ -11,11 +11,11 @@ interface TextProps {
   family?: TextFontFamily;
   size?: TextSize;
   color?: TextColor;
-  children: string;
+  text: string;
 }
 
 export const Text = memo(function Text(props: TextProps) {
-  const { className, family = 'work', size = 'base', color = 'white', children } = props;
+  const { className, family = 'work', size = 'base', color = 'white', text } = props;
   const additionals = [className, cls[family], cls[size], cls[color]];
-  return <p className={classNames(cls.Text, {}, additionals)}>{children}</p>;
+  return <p className={classNames(cls.Text, {}, additionals)}>{text}</p>;
 });
