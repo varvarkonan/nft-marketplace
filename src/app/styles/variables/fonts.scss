@@ -1,41 +1,46 @@
-:root{
+:root {
   --font-family-work: 'Work Sans', sans-serif;
   --font-family-space: 'Space Mono', monospace;
 
-  // H1
+  /* H1 */
   --font-size-h1: 67px;
   --line-size-h1: 74px;
   --font-work-h1: 600 var(--font-size-h1) / var(--line-size-h1) var(--font-family-work);
   --font-space-h1: 700 var(--font-size-h1) / var(--line-size-h1) var(--font-family-space);
-  // H2
+
+  /* H2 */
   --font-size-h2: 51px;
   --line-size-h2: 56px;
   --font-work-h2: 600 var(--font-size-h2) / var(--line-size-h2) var(--font-family-work);
   --font-space-h2: 700 var(--font-size-h2) / var(--line-size-h2) var(--font-family-space);
-  // H3
+
+  /* H3 */
   --font-size-h3: 38px;
   --line-size-h3: 46px;
   --font-work-h3: 600 var(--font-size-h3) / var(--line-size-h3) var(--font-family-work);
   --font-space-h3: 700 var(--font-size-h3) / var(--line-size-h3) var(--font-family-space);
-  // H4
+
+  /* H4 */
   --font-size-h4: 28px;
   --line-size-h4: 39px;
   --font-work-h4: 600 var(--font-size-h4) / var(--line-size-h4) var(--font-family-work);
   --font-space-h4: 700 var(--font-size-h4) / var(--line-size-h4) var(--font-family-space);
-  // H5
+
+  /* H5 */
   --font-size-h5: 22px;
   --line-size-h5: 31px;
   --font-work-h5: 600 var(--font-size-h5) / var(--line-size-h5) var(--font-family-work);
   --font-space-h5: 700 var(--font-size-h5) / var(--line-size-h5) var(--font-family-space);
-  // Base (Body)
+
+  /* Base (Body) */
   --font-size-base: 16px;
   --line-size-base: 22px;
-  --font-work-base: 400 var(--font-size-base) / var( --line-size-base) var(--font-family-work);
-  --font-space-base: 400 var(--font-size-base) / var( --line-size-base) var(--font-family-space);
-  // Caption
+  --font-work-base: 400 var(--font-size-base) / var(--line-size-base) var(--font-family-work);
+  --font-space-base: 400 var(--font-size-base) / var(--line-size-base) var(--font-family-space);
+
+  /* Caption */
   --font-size-caption: 12px;
   --line-size-caption: 13px;
   --font-work-caption: 400 var(--font-size-caption) / var(--line-size-caption) var(--font-family-work);
   --font-space-caption: 400 var(--font-size-caption) / var(--line-size-caption) var(--font-family-space);
 }
-
