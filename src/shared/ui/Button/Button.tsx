@@ -9,7 +9,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   className?: string;
   size: ButtonSize;
   variant: ButtonVariant;
-  Icon?: React.VFC<React.SVGProps<SVGSVGElement>>;
+  Icon?: React.FC<React.SVGProps<SVGSVGElement>>;
   onClick?: () => void;
   children: string;
 }

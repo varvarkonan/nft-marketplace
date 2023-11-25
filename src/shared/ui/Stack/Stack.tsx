@@ -1,4 +1,4 @@
-import { type ReactElement, memo } from 'react';
+import { memo, type ReactNode } from 'react';
 import cls from './Stack.module.scss';
 import { classNames } from '@/shared/lib/helpers/classNames/classNames';
 
@@ -13,7 +13,8 @@ interface StackProps {
   direction?: StackDirection;
   align?: StackAlignItems;
   justify?: StackJustifyContent;
-  children: ReactElement;
+  maxWidth?: boolean;
+  children: ReactNode;
 }
 
 const gapMapper: Record<StackGap, string> = {
@@ -46,7 +47,15 @@ const justifyMapper: Record<StackJustifyContent, string> = {
 };
 
 export const Stack = memo(function Stack(props: StackProps) {
-  const { className, gap = '0', direction = 'row', align = 'start', justify = 'start', children } = props;
+  const {
+    className,
+    gap = '0',
+    direction = 'row',
+    align = 'start',
+    justify = 'start',
+    maxWidth = false,
+    children,
+  } = props;
   const additionals = [gapMapper[gap], cls[direction], alignMapper[align], justifyMapper[justify], className];
-  return <div className={classNames(cls.Stack, {}, additionals)}>{children}</div>;
+  return <div className={classNames(cls.Stack, { [cls.maxWidth]: maxWidth }, additionals)}>{children}</div>;
 });

@@ -1,5 +1,5 @@
 .Stack {
-  z-index: 1;
+  display: flex;
 }
 
 .row {
@@ -71,7 +71,7 @@
 }
 
 .justifyBetween {
-  justify-content: baseline;
+  justify-content: space-between;
 }
 
 .justifyCenter {
@@ -88,4 +88,8 @@
 
 .justifyEvenly {
   justify-content: space-evenly;
+}
+
+.maxWidth {
+  width: 100%;
 }
