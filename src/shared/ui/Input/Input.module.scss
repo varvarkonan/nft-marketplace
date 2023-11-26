@@ -1,0 +1,25 @@
+.InputWrapper {
+  background: var(--text-color);
+  padding: 16px 20px;
+  height: 46px;
+  border-radius: 20px;
+  margin: 16px;
+}
+
+.input {
+  height: var(--line-size-base);
+  width: 258px;
+}
+
+.leftIcon > svg,
+.rightIcon > svg {
+  fill: var(--icon-color);
+  width: 20px;
+  height: 20px;
+}
+
+.leftIcon,
+.rightIcon {
+  width: min-content;
+  height: min-content;
+}
