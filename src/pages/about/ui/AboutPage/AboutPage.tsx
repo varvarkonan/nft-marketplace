@@ -2,7 +2,7 @@ import { memo } from 'react';
 import cls from './AboutPage.module.scss';
 import { classNames } from '@/shared/lib/helpers/classNames/classNames';
 import { Counter } from '@/entities/Counter';
-import { Text } from '@/shared/ui/Button/Text';
+import { Text } from '@/shared/ui/Text';
 
 interface AboutPageProps {
   className?: string;

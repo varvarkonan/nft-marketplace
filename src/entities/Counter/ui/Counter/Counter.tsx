@@ -4,7 +4,7 @@ import { classNames } from '@/shared/lib/helpers/classNames/classNames';
 import { Button } from '@/shared/ui/Button';
 import { useStore } from 'effector-react';
 import { $counter, $counterCombined, $counterText, minus, plus } from '../../model';
-import { Text } from '@/shared/ui/Button/Text';
+import { Text } from '@/shared/ui/Text';
 
 interface CounterProps {
   className?: string;

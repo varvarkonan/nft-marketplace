@@ -1,12 +1,16 @@
-import { type ReactNode, memo } from 'react';
+import { type ReactNode, type InputHTMLAttributes, memo } from 'react';
 import cls from './Input.module.scss';
 import { classNames } from '@/shared/lib/helpers/classNames/classNames';
 import { Stack } from '../Stack';
 
-interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
+type OmittedInputProps = Omit<InputHTMLAttributes<HTMLInputElement>, 'onChange'>;
+
+interface InputProps extends OmittedInputProps {
   className?: string;
   LeftIcon?: ReactNode;
   RightIcon?: ReactNode;
+  // value: string | number;
+  // onChange: (value: string) => void;
 }
 
 export const Input = memo(function Input(props: InputProps) {
