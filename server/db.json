@@ -1,10 +1,56 @@
 {
-  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "name": "typicode" },
-  "nfts": {
-    "a": {
-      "name": "test"
+  "artists": [
+    {
+      "id": "1",
+      "name": "BeKind2Robots",
+      "avatar": "",
+      "nfts": ["1", "2"]
+    },
+    {
+      "id": "2",
+      "name": "Shroomie",
+      "avatar": "",
+      "nfts": ["3"]
     }
-  }
+  ],
+  "nfts": [
+    {
+      "id": "1",
+      "artistId": "1",
+      "name": "The Orbitans",
+      "img": "https://s3-alpha-sig.figma.com/img/85c0/8b92/890ad3bb78d42a6892b85871b782b103?Expires=1702252800&Signature=iaNH027T7hQ2mUjWesMqTntTFK9OcnPbARhNFltShu65SKHzIJ6LEsfAIQqfBxz1P7CKbmwyy-h1UXIiSc~tJL0RDnwahaIuYfILTioMiioejWdZ2kIU5Wba0wk~45kkYkldSiJo5gjCirtN9xi9tFQyEwA3uuSAdodgWK2LooqsaCzkgN3j9VIrxnLBS0p9eN7l3PMb6fWcrBSAR6~B1FYcxb-PnZZ~kA8OgK5oLX5TdjUulrw021wmgmawHdHFO4jBqtW2QR6o4lEkAkyehflo6taCLxdP2im58yADh22OqS0qqT0nf~eiFZcaZtkzkOZEQ~SFwQ6c-st3c1Hk6w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "mintedOn": "30.09.2022",
+      "description": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians. They live in a metal space machines, high up in the sky and only have one foot on Earth.These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target.",
+      "tags": ["animation", "illustration", "moon"],
+      "details": ["link1", "link2"],
+      "price": 1.63,
+      "highestBid": 0.33
+    },
+    {
+      "id": "2",
+      "artistId": "1",
+      "name": "Distant Galaxy",
+      "img": "https://s3-alpha-sig.figma.com/img/e21b/d708/ab5a825e0fedd4f1daf3d715bf9577ae?Expires=1702252800&Signature=e-CXt6gd~txrFVuw1QTienzWSP~4rkS9IlF3svJpdkZ72A7mQGOxBQvOjSW-y383tT~B4pjKZQXflTbTnoW2BXgsHTq6UBQidX-dMzBkT1~8W7T1jOenvXAorZsuMhjW5sqqLqft5L9OfG7~hh0EupuyIG6olxpekc6kac5xFnrFj-J78JygPqIIpMBGEmYcP0E7kIKcN0ZgnPKC6ny3pDYT-bKLjnWykE7aTmBS7JI8EYUcVYOL-EAeNhBi2M3ekpPVBhfcCcXs5sIb9X1ES1ABo06ugeaQkvwAC06iJpL109WuL7~tNdWHdz6CQbzgxtIWZdirPER9Ikd0hzHMaw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "mintedOn": "30.09.2022",
+      "createdBy": "Orbitian",
+      "description": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians. They live in a metal space machines, high up in the sky and only have one foot on Earth.These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target.",
+      "tags": ["animation", "illustration", "moon"],
+      "details": ["link1", "link2"],
+      "price": 1.63,
+      "highestBid": 0.33
+    },
+    {
+      "id": "3",
+      "artistId": "2",
+      "name": "Happy Robot",
+      "img": "https://s3-alpha-sig.figma.com/img/a6f4/3f93/50c73503d13e1fe1a0e3277804ef1192?Expires=1702252800&Signature=TU3yBl6auujEinbYj67adkuj~rRuBkhYIRTfxzjpWLABaHQT8hH2u8WQsxKZahGrrZHxSEcxqTm6KKiRJ6QNuA~U8AwFzVjxxGd~0JYqQRdhDhirAtW02KvZwzEf8pTHJN8WNwebh89iDJ8vYK21nHWs2-GbmrJqSNrWBp6VfL8BGUXu1OjyntlWG3GCjNklkYIn8UaYqddmdZtx8dtbh9XQjmrBb8qHqqVc9V5TWVVPZxy-y0FXPfjftLSQp1ciZQbs~uQ1bzn65xkCrOGbH2eFUEOIE0jJlMVR973M-5FP6YbefPOZBFLTgxAfTKE7e9M4F22F7Tpsc~HRhVYwpw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "mintedOn": "30.09.2022",
+      "createdBy": "Orbitian",
+      "description": "The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians. They live in a metal space machines, high up in the sky and only have one foot on Earth.These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target.",
+      "tags": ["animation", "illustration", "moon"],
+      "details": ["link1", "link2"],
+      "price": 1.63,
+      "highestBid": 0.33
+    }
+  ]
 }
