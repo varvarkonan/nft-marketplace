@@ -1,8 +1,7 @@
 import { type CSSProperties, memo, useMemo } from 'react';
 import cls from './Avatar.module.scss';
 import { classNames } from '@/shared/lib/helpers/classNames/classNames';
-import DefaultAvatar from '@/shared/assets/avatars/avatar-14.png';
-import { AppImage } from '../Image';
+import { AppImage } from '../AppImage';
 import { Text } from '../Text';
 
 interface AvatarProps {
@@ -22,7 +21,7 @@ export const Avatar = memo(function Avatar(props: AvatarProps) {
     [size]
   );
   const fallback = <Text text="..." />;
-  const errorFallback = <AppImage src={DefaultAvatar} />;
+  const errorFallback = <AppImage style={style} src={'src/shared/assets/avatars/avatar-14.png'} />;
   return (
     <AppImage
       style={style}

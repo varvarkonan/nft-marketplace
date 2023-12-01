@@ -5,6 +5,8 @@ import { useUnit } from 'effector-react';
 import { $nft, getNftByIdFx, loadTriggered } from '../../model/store';
 import { Stack } from '@/shared/ui/Stack';
 import { Text } from '@/shared/ui/Text';
+import { Avatar } from '@/shared/ui/Avatar/Avatar';
+import { AppImage } from '@/shared/ui/AppImage';
 
 interface HighlightedNFTProps {
   className?: string;
@@ -28,11 +30,11 @@ export const HighlightedNFT = memo(function HighlightedNFT(props: HighlightedNFT
 
   return (
     <Stack direction="column" className={classNames(cls.HighlightedNFT, {}, [className])}>
-      <img src={nft.img} alt="" className={cls.img} />
+      <AppImage src={nft.img} alt="" className={cls.img} />
       <Stack gap="10" direction="column" className={cls.info}>
         <Text size="h5" text={nft.name ?? 'Loading...'} />
-        <Stack gap="12">
-          <img src={nft.artist.avatar.length > 0 ? nft.artist.avatar : 'cringe'} />
+        <Stack align="center" gap="12">
+          <Avatar size={24} src={nft.artist.avatar} />
           <Text text={nft.artist.name ?? 'Loading...'} />
         </Stack>
       </Stack>

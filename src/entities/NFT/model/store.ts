@@ -16,7 +16,7 @@ const defaultState: NFTSchema = {
   tags: [],
 };
 
-const id = 2;
+const id = 1;
 
 export const loadTriggered = createEvent();
 

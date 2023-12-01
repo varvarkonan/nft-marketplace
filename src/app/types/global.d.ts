@@ -9,4 +9,7 @@ declare module '*.svg' {
   export default content;
 }
 
-declare module '*.png';
+declare module '*.png' {
+  const value: any;
+  export = value;
+}

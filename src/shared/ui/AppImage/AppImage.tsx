@@ -7,7 +7,7 @@ interface AppImageProps extends ImgHTMLAttributes<HTMLImageElement> {
 }
 
 export const AppImage = memo(function AppImage(props: AppImageProps) {
-  const { className, src, alt, errorFallback = undefined, fallback = undefined } = props;
+  const { className, src, alt, errorFallback = undefined, fallback = undefined, ...otherProps } = props;
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);
   useLayoutEffect(() => {
@@ -28,5 +28,5 @@ export const AppImage = memo(function AppImage(props: AppImageProps) {
   if (isError && errorFallback !== undefined) {
     return errorFallback;
   }
-  return <img className={className} src={src} alt={alt} />;
+  return <img className={className} src={src} alt={alt} {...otherProps} />;
 });
