@@ -1,4 +1,4 @@
-import { type Artist } from '@/entities/Artist/model/types';
+import { type Artist } from '@/entities/Artist';
 
 export type NFTTags = 'animation' | 'illustration' | 'moon';
 

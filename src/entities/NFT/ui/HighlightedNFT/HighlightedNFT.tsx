@@ -5,7 +5,7 @@ import { useUnit } from 'effector-react';
 import { $nft, getNftByIdFx, loadTriggered } from '../../model/store';
 import { Stack } from '@/shared/ui/Stack';
 import { Text } from '@/shared/ui/Text';
-import { Avatar } from '@/shared/ui/Avatar/Avatar';
+import { Avatar } from '@/shared/ui/Avatar';
 import { AppImage } from '@/shared/ui/AppImage';
 
 interface HighlightedNFTProps {
