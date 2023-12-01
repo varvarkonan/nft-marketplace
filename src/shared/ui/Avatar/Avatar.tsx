@@ -21,6 +21,7 @@ export const Avatar = memo(function Avatar(props: AvatarProps) {
     }),
     [size]
   );
+  const fallback = <Text text="..." />;
   const errorFallback = <AppImage src={DefaultAvatar} />;
   return (
     <AppImage
@@ -28,7 +29,7 @@ export const Avatar = memo(function Avatar(props: AvatarProps) {
       src={src}
       alt={alt}
       errorFallback={errorFallback}
-      fallback={<Text text="..." />}
+      fallback={fallback}
       className={classNames(cls.Avatar, {}, [className])}
     />
   );

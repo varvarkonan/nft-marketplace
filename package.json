@@ -7,7 +7,8 @@
     "build:prod": "webpack --env production",
     "build:dev": "webpack",
     "start": "webpack serve --open",
-    "lint:ts": "eslint \"./**\""
+    "start:server": "node ./server/app.js",
+    "start:dev": "concurrently \"node ./server/app.js\" \"webpack serve --open\" "
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,7 @@
     "@types/webpack": "^5.28.5",
     "@types/webpack-bundle-analyzer": "^4.6.3",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "concurrently": "^8.2.2",
     "css-loader": "^6.8.1",
     "effector-logger": "^0.15.0",
     "eslint": "^8.54.0",
