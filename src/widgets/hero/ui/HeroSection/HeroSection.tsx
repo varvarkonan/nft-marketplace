@@ -6,6 +6,7 @@ import { Text } from '@/shared/ui/Text';
 import { Button } from '@/shared/ui/Button';
 import RocketLaunchIcon from '@/shared/assets/icons/RocketLaunch.svg';
 import { HighlightedNFT } from '@/entities/NFT/ui/HighlightedNFT/HighlightedNFT';
+import { Info } from '@/shared/ui/Info';
 
 interface HeroSectionProps {
   className?: string;
@@ -24,18 +25,9 @@ export const HeroSection = memo(function HeroSection(props: HeroSectionProps) {
           Get Started
         </Button>
         <Stack gap="30">
-          <Stack direction="column">
-            <Text text="240k+" family="space" size="h4" />
-            <Text text="Total Sale" />
-          </Stack>
-          <Stack direction="column">
-            <Text text="100k+" family="space" size="h4" />
-            <Text text="Auctions" />
-          </Stack>
-          <Stack direction="column">
-            <Text text="240k+" family="space" size="h4" />
-            <Text text="Artists" />
-          </Stack>
+          <Info header="240k+" desc="Total Sale" />
+          <Info header="100k+" desc="Auctions" />
+          <Info header="240k+" desc="Artists" />
         </Stack>
       </Stack>
       <div>
