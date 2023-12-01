@@ -28,11 +28,11 @@ export const HighlightedNFT = memo(function HighlightedNFT(props: HighlightedNFT
 
   return (
     <Stack direction="column" className={classNames(cls.HighlightedNFT, {}, [className])}>
-      <img src={nft.img} alt="" />
-      <Stack direction="column">
-        <Text text={nft.name ?? 'Loading...'} />
-        <Stack>
-          <img src={nft.artist.id} />
+      <img src={nft.img} alt="" className={cls.img} />
+      <Stack gap="10" direction="column" className={cls.info}>
+        <Text size="h5" text={nft.name ?? 'Loading...'} />
+        <Stack gap="12">
+          <img src={nft.artist.avatar.length > 0 ? nft.artist.avatar : 'cringe'} />
           <Text text={nft.artist.name ?? 'Loading...'} />
         </Stack>
       </Stack>

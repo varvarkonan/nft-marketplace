@@ -1,3 +1,18 @@
 .HighlightedNFT {
   z-index: 1;
+  border-radius: 20px;
+  overflow: hidden;
+  background: var(--bg-secondary-color);
+}
+
+.img {
+  max-width: 510px;
+  max-height: 401px;
+  height: 401px;
+  width: 510px;
+  overflow: hidden;
+}
+
+.info {
+  padding: 20px;
 }
