@@ -5,6 +5,7 @@ import { Stack } from '@/shared/ui/Stack';
 import { Text } from '@/shared/ui/Text';
 import { Button } from '@/shared/ui/Button';
 import RocketLaunchIcon from '@/shared/assets/icons/RocketLaunch.svg';
+import { HighlightedNFT } from '@/entities/NFT/ui/HighlightedNFT/HighlightedNFT';
 
 interface HeroSectionProps {
   className?: string;
@@ -37,7 +38,9 @@ export const HeroSection = memo(function HeroSection(props: HeroSectionProps) {
           </Stack>
         </Stack>
       </Stack>
-      <Text text="HIGHLIGHTED NFT" />
+      <div>
+        <HighlightedNFT />
+      </div>
     </Stack>
   );
 });

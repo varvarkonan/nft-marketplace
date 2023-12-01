@@ -15,7 +15,7 @@
 
     // language and enviroment
     "lib": ["DOM", "ESNext"],
-    "target": "ES6",
+    "target": "ESNext",
 
     // modules
     "baseUrl": "./",
