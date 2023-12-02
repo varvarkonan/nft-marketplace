@@ -1,5 +1,5 @@
 import { createEffect, createEvent, createStore, sample } from 'effector';
-import { getNftById } from './service';
+import { getNftById } from './services';
 import { type NFTSchema } from './types';
 
 const defaultState: NFTSchema = {
@@ -22,7 +22,6 @@ export const loadTriggered = createEvent();
 
 export const getNftByIdFx = createEffect(async (nftId: number) => {
   const res = await getNftById({ nftId, _expand: 'artist' });
-  console.log(res);
   return res.data;
 });
 
