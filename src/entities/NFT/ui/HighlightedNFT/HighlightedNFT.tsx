@@ -17,7 +17,7 @@ export const HighlightedNFT = memo(function HighlightedNFT(props: HighlightedNFT
   const [nft, isLoading] = useUnit([$nft, getNftByIdFx.pending]);
 
   useEffect(() => {
-    loadTriggered();
+    loadTriggered(1);
   }, []);
 
   if (isLoading) {

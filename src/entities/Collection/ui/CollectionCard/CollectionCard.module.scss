@@ -1,3 +1,24 @@
-.CollectionCard{
-  z-index: 1;
+.CollectionCard {
+  background: var(--bg-color);
+}
+
+.imgBig {
+  width: 330px;
+  height: 330px;
+}
+
+.img {
+  height: 100px;
+}
+
+.number {
+  background: var(--cta-color);
+  padding: 32px 15px;
+}
+
+.img,
+.imgBig,
+.number,
+.CollectionCard {
+  border-radius: 20px;
 }

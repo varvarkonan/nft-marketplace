@@ -16,9 +16,7 @@ const defaultState: NFTSchema = {
   tags: [],
 };
 
-const id = 1;
-
-export const loadTriggered = createEvent();
+export const loadTriggered = createEvent<number>();
 
 export const getNftByIdFx = createEffect(async (nftId: number) => {
   const res = await getNftById({ nftId, _expand: 'artist' });
@@ -27,7 +25,7 @@ export const getNftByIdFx = createEffect(async (nftId: number) => {
 
 sample({
   clock: loadTriggered,
-  fn: () => id,
+  fn: (id: number): number => id,
   target: getNftByIdFx,
 });
 

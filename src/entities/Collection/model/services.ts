@@ -13,3 +13,9 @@ export const getCollectionDataById = async ({
 }: GetCollectionDataByIdProps): AxiosPromise<Collection> => {
   return await apiInstance.get(`http://localhost:8000/collections/${collectionId}`, { params });
 };
+
+export type GetCollectionsProps = Record<string, any>;
+
+export const getCollections = async ({ params }: GetCollectionsProps): AxiosPromise<Collection[]> => {
+  return await apiInstance.get(`http://localhost:8000/collections`, { params });
+};

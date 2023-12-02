@@ -4,7 +4,8 @@ export interface Collection {
   id: string;
   artistId: string;
   artist: Artist;
-  nftsIds: string[];
+  nftIds: string[];
+  images: string[];
   name: string;
   nftsTotal: number;
 }

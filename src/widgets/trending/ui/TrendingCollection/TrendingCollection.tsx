@@ -4,8 +4,8 @@ import { classNames } from '@/shared/lib/helpers/classNames/classNames';
 import { Stack } from '@/shared/ui/Stack';
 import { Text } from '@/shared/ui/Text';
 import { useUnit } from 'effector-react';
-import { $collections, getCollectionsFx, loadCollectionsTriggered } from '../../model/store';
 import { CollectionCard } from '@/entities/Collection';
+import { $collections, getCollectionsFx, loadCollectionsTriggered } from '@/entities/Collection/model/store';
 
 interface TrendingCollectionProps {
   className?: string;
@@ -24,17 +24,15 @@ export const TrendingCollection = memo(function TrendingCollection(props: Trendi
   }
 
   return (
-    <Stack direction="column" className={classNames(cls.TrendingCollection, {}, [className])}>
+    <Stack direction="column" justify="center" className={classNames(cls.TrendingCollection, {}, [className])}>
       <Stack direction="column" gap="10">
         <Text size="h3" text="Trending Collection" />
         <Text text="Checkout our weekly updated trending collection." />
       </Stack>
-      <Stack gap="30" justify="between">
-        {collections
-          .map((item) => item.id)
-          .map((id) => (
-            <CollectionCard id={id} key={id} />
-          ))}
+      <Stack gap="30" justify="center">
+        {collections.map((collection) => (
+          <CollectionCard collection={collection} key={collection.id} />
+        ))}
       </Stack>
     </Stack>
   );
