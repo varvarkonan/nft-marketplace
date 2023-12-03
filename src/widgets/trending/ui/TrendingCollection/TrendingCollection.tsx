@@ -7,7 +7,7 @@ import { useUnit } from 'effector-react';
 import { CollectionCard } from '@/entities/Collection';
 import {
   $someCollections,
-  getAllCollectionsFx,
+  getSomeCollectionsFx,
   loadAmountOfCollectionsTriggered,
 } from '@/entities/Collection/model/store';
 
@@ -17,7 +17,7 @@ interface TrendingCollectionProps {
 
 export const TrendingCollection = memo(function TrendingCollection(props: TrendingCollectionProps) {
   const { className } = props;
-  const [someCollections, isLoading] = useUnit([$someCollections, getAllCollectionsFx.pending]);
+  const [someCollections, isLoading] = useUnit([$someCollections, getSomeCollectionsFx.pending]);
 
   useEffect(() => {
     loadAmountOfCollectionsTriggered(3);
