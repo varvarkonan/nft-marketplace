@@ -14,11 +14,20 @@ interface ArtistCardProps {
 export const ArtistCard = memo(function ArtistCard(props: ArtistCardProps) {
   const { className, artist } = props;
   return (
-    <Stack className={classNames(cls.ArtistCard, {}, [className])}>
-      <Avatar src={artist.avatar} />
-      <Stack>
-        <Text text={artist.name} />
-        <Text text={`Total Sales: ${artist.totalSales} ETH`} />
+    <Stack
+      direction="column"
+      justify="center"
+      align="center"
+      gap="20"
+      className={classNames(cls.ArtistCard, {}, [className])}
+    >
+      <Avatar src={artist.avatar} size={120} />
+      <Stack direction="column" gap="5" align="center" justify="center" className={cls.artistInfo}>
+        <Text text={artist.name} align="center" size="h5" className={cls.artistName} />
+        <Stack gap="10">
+          <Text text={'Total Sales: '} color="gray" align="right" />
+          <Text text={`${artist.totalSales} ETH`} family="space" />
+        </Stack>
       </Stack>
     </Stack>
   );
