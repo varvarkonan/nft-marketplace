@@ -4,19 +4,22 @@
       "id": "1",
       "name": "MrFox",
       "avatar": "",
-      "createdNfts": ["1", "2", "3", "4", "5", "6"]
+      "createdNfts": ["1", "2", "3", "4", "5", "6"],
+      "totalSales": 12
     },
     {
       "id": "2",
       "name": "Shroomie",
       "avatar": "",
-      "createdNfts": ["7", "8", "9"]
+      "createdNfts": ["7", "8", "9"],
+      "totalSales": 23
     },
     {
       "id": "3",
       "name": "BeKind2Robots",
       "avatar": "",
-      "createdNfts": ["10", "11", "12"]
+      "createdNfts": ["10", "11", "12"],
+      "totalSales": 34
     }
   ],
   "nfts": [

@@ -4,7 +4,7 @@ import { type Collection } from './types';
 
 const defaultState: Collection = {
   artistId: '',
-  artist: { avatar: '', createdNfts: [], id: '', name: '' },
+  artist: { avatar: '', createdNfts: [], id: '', name: '', totalSales: 0 },
   id: '',
   name: '',
   nftIds: [],

@@ -3,4 +3,5 @@ export interface Artist {
   name: string;
   avatar: string;
   createdNfts: string[];
+  totalSales: number;
 }
