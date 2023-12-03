@@ -5,7 +5,11 @@ import { Stack } from '@/shared/ui/Stack';
 import { Text } from '@/shared/ui/Text';
 import { useUnit } from 'effector-react';
 import { CollectionCard } from '@/entities/Collection';
-import { $collections, getCollectionsFx, loadCollectionsTriggered } from '@/entities/Collection/model/store';
+import {
+  $someCollections,
+  getAllCollectionsFx,
+  loadAmountOfCollectionsTriggered,
+} from '@/entities/Collection/model/store';
 
 interface TrendingCollectionProps {
   className?: string;
@@ -13,10 +17,10 @@ interface TrendingCollectionProps {
 
 export const TrendingCollection = memo(function TrendingCollection(props: TrendingCollectionProps) {
   const { className } = props;
-  const [collections, isLoading] = useUnit([$collections, getCollectionsFx.pending]);
+  const [someCollections, isLoading] = useUnit([$someCollections, getAllCollectionsFx.pending]);
 
   useEffect(() => {
-    loadCollectionsTriggered();
+    loadAmountOfCollectionsTriggered(3);
   }, []);
 
   if (isLoading) {
@@ -30,7 +34,7 @@ export const TrendingCollection = memo(function TrendingCollection(props: Trendi
         <Text text="Checkout our weekly updated trending collection." />
       </Stack>
       <Stack gap="30" justify="center">
-        {collections.map((collection) => (
+        {someCollections.map((collection) => (
           <CollectionCard collection={collection} key={collection.id} />
         ))}
       </Stack>

@@ -13,10 +13,25 @@ const defaultState: Collection = {
 };
 
 export const loadCollectionTriggered = createEvent<number>();
+export const loadAllCollectionsTriggered = createEvent();
+export const loadAmountOfCollectionsTriggered = createEvent<number>();
 
 export const getCollectionDataByIdFx = createEffect(async (collectionId: number) => {
   const res = await getCollectionDataById({ collectionId, _expand: 'artist' });
   return res.data;
+});
+
+export const getAllCollectionsFx = createEffect(async () => {
+  const res = await getCollections({});
+  return res.data;
+});
+
+export const getSomeCollectionsFx = createEffect(async (amount: number) => {
+  const res: Collection[] = [];
+  for (let i = 1; i <= amount; i++) {
+    res.push((await getCollectionDataById({ collectionId: i, _expand: 'artist' })).data);
+  }
+  return res;
 });
 
 sample({
@@ -25,21 +40,22 @@ sample({
   target: getCollectionDataByIdFx,
 });
 
+sample({
+  clock: loadAllCollectionsTriggered,
+  target: getAllCollectionsFx,
+});
+
+sample({
+  clock: loadAmountOfCollectionsTriggered,
+  fn: (amount: number) => amount,
+  target: getSomeCollectionsFx,
+});
+
 export const $collection = createStore<Collection>(defaultState).on(
   getCollectionDataByIdFx.doneData,
   (_, payload) => payload
 );
 
-export const loadCollectionsTriggered = createEvent();
+export const $collections = createStore<Collection[]>([]).on(getAllCollectionsFx.doneData, (_, params) => params);
 
-export const getCollectionsFx = createEffect(async () => {
-  const res = await getCollections({});
-  return res.data;
-});
-
-sample({
-  clock: loadCollectionsTriggered,
-  target: getCollectionsFx,
-});
-
-export const $collections = createStore<Collection[]>([]).on(getCollectionsFx.doneData, (_, payload) => payload);
+export const $someCollections = createStore<Collection[]>([]).on(getSomeCollectionsFx.doneData, (_, params) => params);

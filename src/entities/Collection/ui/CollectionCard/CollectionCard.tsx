@@ -14,7 +14,7 @@ interface CollectionCardProps {
 
 export const CollectionCard = memo(function CollectionCard(props: CollectionCardProps) {
   const { className, collection } = props;
-
+  console.log(collection);
   return (
     <div className={classNames(cls.CollectionCard, {}, [className])}>
       <Stack direction="column" gap="10">
@@ -30,9 +30,9 @@ export const CollectionCard = memo(function CollectionCard(props: CollectionCard
         </Stack>
         <Stack direction="column" gap="10">
           <Text text={collection.name} size="h5" />
-          <Stack>
-            <Avatar size={24} src={''} />
-            <Text text={'collection.artist.name'} />
+          <Stack gap="10">
+            <Avatar size={24} src={collection.artist !== undefined ? collection.artist.avatar : ''} />
+            <Text text={collection.artist !== undefined ? collection.artist.name : 'name'} />
           </Stack>
         </Stack>
       </Stack>
