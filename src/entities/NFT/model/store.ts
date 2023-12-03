@@ -4,7 +4,7 @@ import { type NFTSchema } from './types';
 
 const defaultState: NFTSchema = {
   artistId: '',
-  artist: { avatar: '', createdNfts: [], id: '', name: '' },
+  artist: { avatar: '', createdNfts: [], id: '', name: '', totalSales: 0 },
   description: '',
   details: [],
   highestBid: 0,
