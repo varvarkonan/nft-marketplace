@@ -3,23 +3,86 @@
     {
       "id": "1",
       "name": "MrFox",
-      "avatar": "",
+      "avatar": "https://s3-alpha-sig.figma.com/img/9acf/2677/568b38bc98ba36dbd43c768c40de6716?Expires=1702857600&Signature=Ont5k7ttmJOfQZmdJC-J2fsKqp~bUaKOpuwyJL2NxltfT2XquO2k~WgsadBVU5NWNM04YvgUEpdFX9OErYzoApysy9eu5MaUX2WUr5PN5FyvR4KGwtzkKwx0Pt7kECUBTWoM~OlYlJDSOYdv8u6FPbU5SMirRVSpKv~IqWV4dPprN5F5F5JooZaWHaiqkNUq6fK9Fg~JhXPpUokwHz5qpZYA5XWGQnUVVsAG0keEcq~swwJ3h-NhhaiUOw18GJAqwThgLI3nx-CpKH4nz2ocenFSc8IW4IPJa2Du7tQW2G-lzABlLdEt9utUNJFAbJ59bRWK~Fsqq4EA-2jmspXvbQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
       "createdNfts": ["1", "2", "3", "4", "5", "6"],
       "totalSales": 12
     },
     {
       "id": "2",
       "name": "Shroomie",
-      "avatar": "",
+      "avatar": "https://s3-alpha-sig.figma.com/img/426c/ea39/cb7585dba1b58ad1b137d50b7424eb72?Expires=1702857600&Signature=MojC31MGuOVqZKs2sPQ1P4Pc~H1QGDYqKSFIUWvJR3UvwW-7cZRF8y0IGGkPidyG48pqn6On-d-smUFzWb7wlZ~kGkr0mdrKgBN0m16A3qJ66W43mrm0Ct4EoC~EaYNTMLpd8cKDp56zvilfTzYuQLle2a3XWoXKY5q0dWO~hINJ5dprLHZlwDCtBGFX4wgxwQZkLDOwwyfru1n06U7GvKE1ltnI16y7~Ks2boIdhQeJpwMTgQFpDCVqIcAYjPTN~h5auaxOodgrj6cI86Vv6wHHdMOr2TCqQlwPzZsqHeBxiT2hzswkWBabDEQE-vEqSXFYkRSraTlVQ6xUdOlUHw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
       "createdNfts": ["7", "8", "9"],
       "totalSales": 23
     },
     {
       "id": "3",
       "name": "BeKind2Robots",
-      "avatar": "",
+      "avatar": "https://s3-alpha-sig.figma.com/img/097d/8805/7996f61cddab0708f90589b5862464d9?Expires=1702857600&Signature=BDxJFsSlxfJXk2-c32C1K~VpefthWtx4jLNNMEnV3N2d0FX3e1t-zPQZZE2MEpoGsuA7LOH0rzC~w8V2~4KNnXQ2adoO5RgBTbuLrhUODQryfZEzONwCL6N9V0rd8QdOaYiOsXdh20M~aHi1jD9a6sSbK10oeMZKaxAYSw6BKoC2itT81rLPgcxkM~zsxfXnufcjfKR3f-6a9eRaIeNJWNqpOuWL8wSA7GSk6Kpap7L24xKftkP-ulnn~YqydepNUDAKfJJWH0ceRstHyRSI-VQ~wY6DhGC~nwM9xa-6wnCCuhWEB4AUtogGKti6St215eimBPBi6l88jVwpGS7w-w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
       "createdNfts": ["10", "11", "12"],
       "totalSales": 34
+    },
+    {
+      "id": "4",
+      "name": "GravityOne",
+      "avatar": "https://s3-alpha-sig.figma.com/img/f2ba/60e7/d0a151a8679c9019f7b2fd3280ed672a?Expires=1702857600&Signature=caqGy6VyWtNhhg7TfxlEDvzQAUt9tlRC2UG1k3ejc5WaBE31tmRgqpMYTDHYj~AGTct-2uDjHzZYT2pfEOSmF-ERPZyWPanj8~OlUfN2FgN-W3KvTdKHBFalloKnuFddhFAqlPcXpg5WccRFGXXRAlbwBlbVhKYhCeEzpTa38yMC0enGyEC8RWm2nrDPVqmEBPst4w5CUja3-SJoRd~KMWZLcTHNEt5VTj-1oIicXcEgn9ephN46Jxftyk-o8Rj-RVtjL1r1pfKjsJSSVrWP3gRjLDAIJAUlmbUM2O8usCBiRRKPQ5HBUuQ22Ewp~-ge7dRyDCwHzF2i0yXXwlGTAQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "createdNfts": ["10", "11", "12"],
+      "totalSales": 343
+    },
+    {
+      "id": "5",
+      "name": "Digilab",
+      "avatar": "https://s3-alpha-sig.figma.com/img/0baf/4967/926010bdc73a371f46a73e06d45320a3?Expires=1702857600&Signature=E2LjGNuO1b5PI9r5RCwI2SjJgstpp9wKAjDIc1bn5PCbtewkv6uXxuTGk0BzD5QTIrrjFzQy-J~faHidbzl8NfkIfmEt7PpPZXC~-RRUZ6sCKL4idJrSGxQ0ejDnjOv0YWHC-NheGhh~HVqv-R56c2hA8ozzy2T9rKfLwqPJjL-YXn7OLMLZMtuK7ljfnf32F~VRlXHopyg81oucRK2UKFhoeFoCOD1npvZftYF-uNqrXDJW9-ud7RfZ4VLRPr8R5wn73FHJnBsw4yNYklTiON2pYeSYgaTb9YT0dXyOwA5p0gSzDitisEhhJhOklH8Qu9Uh2pKNGpIL2Bvxc~n0Iw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "createdNfts": ["10", "11", "12"],
+      "totalSales": 3444
+    },
+    {
+      "id": "6",
+      "name": "BeKind2Robots",
+      "avatar": "https://s3-alpha-sig.figma.com/img/5f29/0aef/1589d4b7ed50db6bf310ffa8392539ea?Expires=1702857600&Signature=HQgdCp4HsjZNqxhjEZyyAxf3vGqdlqc0JVTQHECAUnMpBkKhGDTj8vh8zZsWtXKmu6g19XuiwuFAIRxPbSJs58fdvIEJnb~SuGQRxMxaVNCWMgGzz2VI81zP-ObVWsX6Ug~04xorcnXDd9-dfOwnnR-V0ErGaDn3UFPjh3NXKXjITBknZZ86sdm7Y~nPY6ZwA1WrjxufeY-3I9YOHIi0h67n89tYXdQaM-B4XnNtgXmvvtgKznWPEGXI0Rh2GwSY1J~NdlmlPT17RIenoWfJGn-AnX3FBPKNASkiKyeJguT91QPMQy5NgKAgG1aR-XWI4fQ0eIcxv4P9TY~0wVuk4w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "createdNfts": ["10", "11", "12"],
+      "totalSales": 3455
+    },
+    {
+      "id": "7",
+      "name": "Bluewhale",
+      "avatar": "https://s3-alpha-sig.figma.com/img/1319/72c5/5d373813d19d71797627818ee707c601?Expires=1702857600&Signature=qxrTtLsXmkw8VBwNKMgYvHv-r5ApHq2J0cvIYQSyy7hzYsRzrNTQWQPOX8sMcQPiz7Bb3uAf98YVjQgydNb5S0J24G4u7wSPDENltzp408G625Bq0Z0mtbbQjzzMv8CK-rOXEwSk8dWxvciV4210YY1AjrgPln2jubTIAl-TrLgeLuIbojMprqH-aV2703hmKefy~pqbCfs0RMrgq7ceL~mw38FTF47yVBP3AGYRmMkAOK8IIofl7whbyO7wcb499CUpDzynIFvhTOvERpT4A6E4CsMuN672QCnqVi2Zs0LfMp7i4yuxEc5I7er3r1kG5nSqc46m8fo2WteDNks1iw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "createdNfts": ["10", "11", "12"],
+      "totalSales": 3466
+    },
+    {
+      "id": "8",
+      "name": "RustyRobvots",
+      "avatar": "https://s3-alpha-sig.figma.com/img/341a/ecac/80c1e6f6c1ae447f54bae66d368c972b?Expires=1702857600&Signature=FjJvF1maby4pfvF9o4DkaC0xjQwyeO2tHYH0egoBcJDTOhQ15KCe0ezdbHqGrkPtIgC4VXFFxbajd9BQ8APQVME~Kx4tUtjgiY-fIgIWV9Fs-pxXomkS2xrOiYzjscAjmZbW8RMNqbE76~ol5cb~VZLmfans-L8BR5BA2Xb6lKCNm7G-vHARtUceFGfiOo0K4Kw8SYttMDB1saPR4lniDawjoAjz55BY4cm-LRpzN7JWBNZnppgksRAtzq1JbsbqJ7JUZTBQX-hR33iVtGnSdNeG1ei6GmbHMlfuMVlbfZVaO74DnYOd26r4gWcGKxQZe66ZgW3h1LNqSJ~TmwvYPw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "createdNfts": ["10", "11", "12"],
+      "totalSales": 3477
+    },
+    {
+      "id": "9",
+      "name": "Ghiblier",
+      "avatar": "https://s3-alpha-sig.figma.com/img/df15/4235/7607a1ee4849d817ed31b7a6f61f08e2?Expires=1702857600&Signature=K3~PLIqgVRCxQWyupoP5Tjv0bQw3kvyJPYkpOve6b4TTJ85xQUfu9gxbcnJSxCLTYpMknmRcg4gidycnI9qKCBvHunCO1Q97sQKGUmjix9aDygyxz5hWkxC8IhvXIjIRqZF8PBnYvEYOjZ7ts-LVKOF6iWCu2UHh1CpbBQEzuRpR3Tr1udpmKIlzMtDXjU1~uWuKlUGz~bBh1jpQYuXJVkiIHrhpCsD0kG~ced5iCnakJdSxS285QgYS2RfgVMj07UMyfGH-uaRUcKkcvONhBjN2hdoXZT07kEOWZ7GQY3MXj71SfOH-pZ5bQkd-PkwbYKAhgaX-XdvrvzdEjEwq0A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "createdNfts": ["10", "11", "12"],
+      "totalSales": 3488
+    },
+    {
+      "id": "10",
+      "name": "Dotgu",
+      "avatar": "https://s3-alpha-sig.figma.com/img/f69e/01f4/14ef96fbca729d59b18599e7b5fe108f?Expires=1702857600&Signature=F9d4VmXdzMaiaCK~HbuDqG~ZD-7OfEp41QOF-QmzPiuGktXnL1DWco9QjBfBMOwBeMG~FtP0n4D~0FdU1j1UDhrIZDvYx4vmnOGmFhS0QiDBvj~iOVFfjmKLkSPR1MnBsaK53fjCelSPBsaWQzxnkI7-uwNAbmJPhef2wDpcftRcyL84A1e5aij8dk9QCwS6K5AkASDJIM8t5mjZ9f5GaYniX-U5A5bSwomcR3M-MkemT7cfNxEKrwz561WE0zCIp4LS7C2~X-WPOCACLpiJpwcvKDRDdjWf6l-xVTjid9BCL1QeVoRe8Fh8u8APgX4kLoZfsgIOP37KUYUmHH4d6Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "createdNfts": ["10", "11", "12"],
+      "totalSales": 33234
+    },
+    {
+      "id": "11",
+      "name": "AnimaKeed",
+      "avatar": "https://s3-alpha-sig.figma.com/img/a0bc/6222/7a478201e00401b61ee30164c2611032?Expires=1702857600&Signature=p2LVWqzsGW68Pf6mFCQVEGtD5ZdEMkHmApfYyPkxQMAwvlyzdKDeQpSvqf9sEFGkbKWxWh06zcEUghDdwSr7t9q9alICi77Rqf-cKoMhr7soeWw8YcffaynPK3XTs2Oz8eAdi2b~cbSUnPhqsV1tDhGubWHW4eAgfJoE4sUm6tCsjb4rYF5Ncdim4OtP6o2vKQSShLnrl1QvdHjX-ZcOvGLv9F-tGfxqUqBZDrxekXoiYSAHb63hJP9opezptf6ou9C~k0M2NyXj42JRpxh~2FYI1xlakfRn9JuoiWOCBxwD-zbVecNpWWaW3gEs133swG059Y65rYgDRPIL4~bunQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "createdNfts": ["10", "11", "12"],
+      "totalSales": 34141
+    },
+    {
+      "id": "12",
+      "name": "Keepitreal",
+      "avatar": "",
+      "createdNfts": ["10", "11", "12"],
+      "totalSales": 342
     }
   ],
   "nfts": [
