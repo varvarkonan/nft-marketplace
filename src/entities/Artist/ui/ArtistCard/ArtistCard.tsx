@@ -29,6 +29,9 @@ export const ArtistCard = memo(function ArtistCard(props: ArtistCardProps) {
           <Text text={`${artist.totalSales} ETH`} family="space" />
         </Stack>
       </Stack>
+      <Stack justify="center" align="center" className={cls.rank}>
+        <Text text={artist.id} color="gray" family="space" />
+      </Stack>
     </Stack>
   );
 });
