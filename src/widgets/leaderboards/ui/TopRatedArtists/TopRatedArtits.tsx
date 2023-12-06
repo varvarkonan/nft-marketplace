@@ -35,7 +35,7 @@ export const TopRatedArtits = memo(function TopRatedArtits(props: TopRatedArtits
           View Rankings
         </Button>
       </Stack>
-      <Stack className={cls.artistsList}>
+      <Stack gap="30" className={cls.artistsList}>
         {artists.map((artist, index) => (
           <ArtistCard artist={artist} rank={index + 1} key={artist.id} />
         ))}
