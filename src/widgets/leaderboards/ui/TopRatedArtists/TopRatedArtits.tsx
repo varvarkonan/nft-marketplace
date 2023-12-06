@@ -1,4 +1,4 @@
-import { memo } from 'react';
+import { memo, useEffect } from 'react';
 import cls from './TopRatedArtits.module.scss';
 import { classNames } from '@/shared/lib/helpers/classNames/classNames';
 import { Stack } from '@/shared/ui/Stack';
@@ -6,6 +6,8 @@ import { Text } from '@/shared/ui/Text';
 import { Button } from '@/shared/ui/Button';
 import RocketLaunchIcon from '@/shared/assets/icons/RocketLaunch.svg';
 import { ArtistCard } from '@/entities/Artist/ui/ArtistCard/ArtistCard';
+import { useUnit } from 'effector-react';
+import { $topArtists, getTopArtistsFx, loadTopArtistsTriggered } from '@/entities/Artist/model/store';
 
 interface TopRatedArtitsProps {
   className?: string;
@@ -13,6 +15,15 @@ interface TopRatedArtitsProps {
 
 export const TopRatedArtits = memo(function TopRatedArtits(props: TopRatedArtitsProps) {
   const { className } = props;
+  const [artists, isLoading] = useUnit([$topArtists, getTopArtistsFx.pending]);
+  useEffect(() => {
+    loadTopArtistsTriggered();
+  }, []);
+
+  if (isLoading) {
+    return 'loading...';
+  }
+
   return (
     <Stack direction="column" gap="50" maxWidth className={classNames(cls.TopRatedArtits, {}, [className])}>
       <Stack maxWidth justify="between">
@@ -24,10 +35,10 @@ export const TopRatedArtits = memo(function TopRatedArtits(props: TopRatedArtits
           View Rankings
         </Button>
       </Stack>
-      <Stack>
-        <ArtistCard
-          artist={{ avatar: '', createdNfts: [], id: '1', name: 'Dish Studio', totalSales: 34.53 }}
-        ></ArtistCard>
+      <Stack className={cls.artistsList}>
+        {artists.map((artist, index) => (
+          <ArtistCard artist={artist} rank={index + 1} key={artist.id} />
+        ))}
       </Stack>
     </Stack>
   );

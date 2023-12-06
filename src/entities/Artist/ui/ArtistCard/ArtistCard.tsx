@@ -9,10 +9,11 @@ import { Text } from '@/shared/ui/Text';
 interface ArtistCardProps {
   className?: string;
   artist: Artist;
+  rank: number;
 }
 
 export const ArtistCard = memo(function ArtistCard(props: ArtistCardProps) {
-  const { className, artist } = props;
+  const { className, artist, rank } = props;
   return (
     <Stack
       direction="column"
@@ -22,7 +23,7 @@ export const ArtistCard = memo(function ArtistCard(props: ArtistCardProps) {
       className={classNames(cls.ArtistCard, {}, [className])}
     >
       <Avatar src={artist.avatar} size={120} />
-      <Stack direction="column" gap="5" align="center" justify="center" className={cls.artistInfo}>
+      <Stack direction="column" maxWidth gap="5" align="center" justify="center" className={cls.artistInfo}>
         <Text text={artist.name} align="center" size="h5" className={cls.artistName} />
         <Stack gap="10">
           <Text text={'Total Sales: '} color="gray" align="right" />
@@ -30,7 +31,7 @@ export const ArtistCard = memo(function ArtistCard(props: ArtistCardProps) {
         </Stack>
       </Stack>
       <Stack justify="center" align="center" className={cls.rank}>
-        <Text text={artist.id} color="gray" family="space" />
+        <Text text={rank.toString()} color="gray" family="space" />
       </Stack>
     </Stack>
   );
