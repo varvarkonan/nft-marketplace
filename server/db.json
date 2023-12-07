@@ -90,6 +90,7 @@
       "id": "1",
       "artistId": "1",
       "collectionId": "0",
+      "categoryId": "1",
       "name": "The Orbitans",
       "img": "https://s3-alpha-sig.figma.com/img/85c0/8b92/890ad3bb78d42a6892b85871b782b103?Expires=1702252800&Signature=iaNH027T7hQ2mUjWesMqTntTFK9OcnPbARhNFltShu65SKHzIJ6LEsfAIQqfBxz1P7CKbmwyy-h1UXIiSc~tJL0RDnwahaIuYfILTioMiioejWdZ2kIU5Wba0wk~45kkYkldSiJo5gjCirtN9xi9tFQyEwA3uuSAdodgWK2LooqsaCzkgN3j9VIrxnLBS0p9eN7l3PMb6fWcrBSAR6~B1FYcxb-PnZZ~kA8OgK5oLX5TdjUulrw021wmgmawHdHFO4jBqtW2QR6o4lEkAkyehflo6taCLxdP2im58yADh22OqS0qqT0nf~eiFZcaZtkzkOZEQ~SFwQ6c-st3c1Hk6w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
       "mintedOn": "30.09.2022",
@@ -103,6 +104,7 @@
       "id": "2",
       "artistId": "1",
       "collectionId": "0",
+      "categoryId": "2",
       "name": "Distant Galaxy",
       "img": "https://s3-alpha-sig.figma.com/img/e21b/d708/ab5a825e0fedd4f1daf3d715bf9577ae?Expires=1702252800&Signature=e-CXt6gd~txrFVuw1QTienzWSP~4rkS9IlF3svJpdkZ72A7mQGOxBQvOjSW-y383tT~B4pjKZQXflTbTnoW2BXgsHTq6UBQidX-dMzBkT1~8W7T1jOenvXAorZsuMhjW5sqqLqft5L9OfG7~hh0EupuyIG6olxpekc6kac5xFnrFj-J78JygPqIIpMBGEmYcP0E7kIKcN0ZgnPKC6ny3pDYT-bKLjnWykE7aTmBS7JI8EYUcVYOL-EAeNhBi2M3ekpPVBhfcCcXs5sIb9X1ES1ABo06ugeaQkvwAC06iJpL109WuL7~tNdWHdz6CQbzgxtIWZdirPER9Ikd0hzHMaw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
       "mintedOn": "30.09.2022",
@@ -117,6 +119,7 @@
       "id": "3",
       "artistId": "1",
       "collectionId": "0",
+      "categoryId": "3",
       "name": "Happy Robot",
       "img": "https://s3-alpha-sig.figma.com/img/a6f4/3f93/50c73503d13e1fe1a0e3277804ef1192?Expires=1702252800&Signature=TU3yBl6auujEinbYj67adkuj~rRuBkhYIRTfxzjpWLABaHQT8hH2u8WQsxKZahGrrZHxSEcxqTm6KKiRJ6QNuA~U8AwFzVjxxGd~0JYqQRdhDhirAtW02KvZwzEf8pTHJN8WNwebh89iDJ8vYK21nHWs2-GbmrJqSNrWBp6VfL8BGUXu1OjyntlWG3GCjNklkYIn8UaYqddmdZtx8dtbh9XQjmrBb8qHqqVc9V5TWVVPZxy-y0FXPfjftLSQp1ciZQbs~uQ1bzn65xkCrOGbH2eFUEOIE0jJlMVR973M-5FP6YbefPOZBFLTgxAfTKE7e9M4F22F7Tpsc~HRhVYwpw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
       "mintedOn": "30.09.2022",
@@ -131,6 +134,7 @@
       "id": "4",
       "artistId": "1",
       "collectionId": "1",
+      "categoryId": "4",
       "name": "Mister Chien",
       "img": "https://s3-alpha-sig.figma.com/img/a792/ddc0/c4e1193ffd08cf4918e6f696bbc8d8fe?Expires=1702252800&Signature=OTJxFtlUP6EDKkrf8pZXpCcb9A3lGv6qzPw2La12C77PBacPIeXljlCMzWfEyPWQgwPmy9IPdOZMK8RWMWuXnWMBnSvsGSrlyhcPZLqWj7Vx4MAxXU4AsAXLyQbRrmiR2sjNyiu7eNxL7IqTOSNUoLLOOcpTOGi-qui-wnznpPqCd1S-vtSkSog-o4DIhpNQD1JC2Z-ILWwuxkP3vqpRxdr1jqpvpxPl1gMv60Nk567b~WqTnkDCZjd1RNUp~eyhlFpxLTQ2Y1Y9ld5TM5zSDvJlmgeY74YEOSw~j~7-RpZ69oLtibKnwxTKc60puJ-TRgS111gfPUy54FRdPt2Usw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
       "mintedOn": "30.09.2022",
@@ -145,6 +149,7 @@
       "id": "5",
       "artistId": "1",
       "collectionId": "1",
+      "categoryId": "5",
       "name": "Mister Chat",
       "img": "https://s3-alpha-sig.figma.com/img/4eec/8eba/54b2d345dc1480b247b05bb6f0d1f429?Expires=1702252800&Signature=hRdIPlRePGBsAKJIfj8H1Yc0uSg-a6CD4IVfZn~fY1pgV-IxBeOomlVDM2I4oXGlrNu9kmys26EVpKMu-e20vSJjjgi8oHIt3vkG9H8vLdgyu5woJ6K0~8Gk15MWmn6Cn624lUFZvQEwWC8Mm2r12jQ5R4VXAxmTAFtryXcar~t7xtE5pmaraR8BQl0i3FdkqCRdQsm3sybgPJWl8KcquLIQmFzvS4cU94EuzluO~A3KIcDy0SJ-HEv6wpkNc7LCgndk5yQhgZxsyHP9I56Y44JUkPFIkHEnmbyLDO1zJtjLq45BlzzBER5D8FhrQFklic0gDxycMHhUi-jF5-6sTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
       "mintedOn": "30.09.2022",
@@ -158,8 +163,9 @@
     {
       "id": "6",
       "artistId": "1",
-      "name": "Mister Ours",
       "collectionId": "1",
+      "categoryId": "6",
+      "name": "Mister Ours",
       "img": "https://s3-alpha-sig.figma.com/img/7e55/1754/df2c85a307298720a7483609e93b5fef?Expires=1702252800&Signature=mGqVFtB35MhIfjSAjzX1lZPqpfnNIobZfzo7PxQIsp4VkrcQsn1Tgv56w0DWm4cyEeC70j6p5kDilT-OiUl5bBIAn-j8ICzRk~MV9aBe1GqdWrhrtEK-Gj70l5XNOENXGlviu7ghVrio2CXhsrbA4CNbsmKSt~K~gwXU~eNiJMPt~W4zpsnq4r982LrGLuW4EmW3jfRrSUI6LFOfV-mfVkzPBVLdazdmJmo~Nupc9Mz1wEe1xx-JquQFBRjKTeNH6ffD69k0IvbMAgjlM27cxmG52I1XriQTruGFrnqM9zqwoZPcRnYcrAhiO8RV~bepf32ijZRhTiBu8G4dUPMCzA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
       "mintedOn": "30.09.2022",
       "createdBy": "Orbitian",
@@ -172,8 +178,9 @@
     {
       "id": "7",
       "artistId": "2",
-      "name": "Greeb",
       "collectionId": "2",
+      "categoryId": "7",
+      "name": "Greeb",
       "img": "https://s3-alpha-sig.figma.com/img/a6f4/3f93/50c73503d13e1fe1a0e3277804ef1192?Expires=1702252800&Signature=TU3yBl6auujEinbYj67adkuj~rRuBkhYIRTfxzjpWLABaHQT8hH2u8WQsxKZahGrrZHxSEcxqTm6KKiRJ6QNuA~U8AwFzVjxxGd~0JYqQRdhDhirAtW02KvZwzEf8pTHJN8WNwebh89iDJ8vYK21nHWs2-GbmrJqSNrWBp6VfL8BGUXu1OjyntlWG3GCjNklkYIn8UaYqddmdZtx8dtbh9XQjmrBb8qHqqVc9V5TWVVPZxy-y0FXPfjftLSQp1ciZQbs~uQ1bzn65xkCrOGbH2eFUEOIE0jJlMVR973M-5FP6YbefPOZBFLTgxAfTKE7e9M4F22F7Tpsc~HRhVYwpw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
       "mintedOn": "30.09.2022",
       "createdBy": "Orbitian",
@@ -186,8 +193,9 @@
     {
       "id": "8",
       "artistId": "2",
-      "name": "Tee Pah Gre Bok",
       "collectionId": "2",
+      "categoryId": "8",
+      "name": "Tee Pah Gre Bok",
       "img": "https://s3-alpha-sig.figma.com/img/138c/f49a/c8b9122a6caea314c4c42023a611e74a?Expires=1702252800&Signature=F~cu-v0VFTkLCeHrRFnkyJiA8oA8ddFBhJgGtyjyyikb2CaMqPQD69rAXd1gONN3dxfyOts-~nhEedBYqidE78KtEbl5bRPGK~0zz-fqwfPxBGOlKCPP5KeXs~PcvBFSWkTpKq3JnbXnU~HrNU3fWCshYSmtUh78opVXP4P2sWO4~UcGWllgIOnlwrr1~uaSm4LE5-HBq8QmX8jqXsfNcyLzT-~LYySDLLVWeJ0OI6yzPOVxNo9Bq6tGN-wt50iMlZL7mfCWjriGi6K5sld2s4KwM4F2LZ2jptH84r1FshkDRETwG9XBovJgThtdV~PtzDtTupGCcuAa1aS0H22UPA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
       "mintedOn": "30.09.2022",
       "createdBy": "Orbitian",
@@ -201,6 +209,7 @@
       "id": "9",
       "artistId": "2",
       "collectionId": "2",
+      "categoryId": "8",
       "name": "Mushomie",
       "img": "https://s3-alpha-sig.figma.com/img/8ef4/1021/aea8d3372e819451c56863985d896aa0?Expires=1702252800&Signature=DqbHj2W2CgdBemW9L8mUgkCcx3CdOIN2XiKvsk-Sr04sS6j2mwjnbTk04V5fEt~XXpQ2PCdDUR5SWgTnUvaqHwHMAHqmBdx1usl8U0qcBSItJBkIAbFjCdPJJ0w8YJIMlB2CodUwJxbJnjpjoHjuiFWK29XIJ-859WoDxACQ5-vsdatw3y5XYzhzUAR2jP5fLIgbrbKa7C51pCFKvAYel-m~KpVdaVS0A2PESiQ8eqJJIEdcAXBZHCpw9YMDxFUQvHHlEJXrqYdiQU5MfxjSgF3pBIUmHMSfyjNRiCFxndPqJPNev3g8-cmGPYPm6XbzDPvneaa~6bq35xlNEq~agw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
       "mintedOn": "30.09.2022",
@@ -215,6 +224,7 @@
       "id": "10",
       "artistId": "3",
       "collectionId": "3",
+      "categoryId": "4",
       "name": "Happy Robot",
       "img": "https://s3-alpha-sig.figma.com/img/e21b/d708/ab5a825e0fedd4f1daf3d715bf9577ae?Expires=1702252800&Signature=e-CXt6gd~txrFVuw1QTienzWSP~4rkS9IlF3svJpdkZ72A7mQGOxBQvOjSW-y383tT~B4pjKZQXflTbTnoW2BXgsHTq6UBQidX-dMzBkT1~8W7T1jOenvXAorZsuMhjW5sqqLqft5L9OfG7~hh0EupuyIG6olxpekc6kac5xFnrFj-J78JygPqIIpMBGEmYcP0E7kIKcN0ZgnPKC6ny3pDYT-bKLjnWykE7aTmBS7JI8EYUcVYOL-EAeNhBi2M3ekpPVBhfcCcXs5sIb9X1ES1ABo06ugeaQkvwAC06iJpL109WuL7~tNdWHdz6CQbzgxtIWZdirPER9Ikd0hzHMaw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
       "mintedOn": "30.09.2022",
@@ -229,6 +239,7 @@
       "id": "11",
       "artistId": "3",
       "collectionId": "3",
+      "categoryId": "3",
       "name": "Russian Paradise Robot",
       "img": "https://s3-alpha-sig.figma.com/img/d983/47e1/73b90df9823e9f0887e7106bb434691d?Expires=1702252800&Signature=h8341F-HCRDYwG~GXyyNH35fsApta93d98Kd~TKrkugL6FndcKJ2Vkv~PNdgYivbFkpAKqVp~PE5wk6wKmEY1nN0ENAlMdoZwS77sbu79EwFhCWwuMeRWfqFgqzEBFHeil9f3uCuUpUQc4J9HDkVdU-4UBQoZXAWi4W1FTFRSQoLd-ah2kbC3Q4C3HkvzUiXtpT~QRBfRnfQKbP8xOiHiDpEO0jo1xU1bnTadwOaSN2iRx097YUYKVMP3I0-G8kyRDZHYR8E3LPxsRWgwxL8w0Q544d8GSx4e7ugCtDbW8xUTCGDjIEj9evHCgpM9jqrTdcozjcS-XcJ-lpxcq2veQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
       "mintedOn": "30.09.2022",
@@ -243,6 +254,7 @@
       "id": "12",
       "artistId": "3",
       "collectionId": "3",
+      "categoryId": "5",
       "name": "Robotique",
       "img": "https://s3-alpha-sig.figma.com/img/8b1e/419a/e7379ad5b52877ce89231d09f29bbfa1?Expires=1702252800&Signature=g1rzCZiDvvMPkuQK9sLwpl7mQlvheJEb~DUlzUP14KBTqk48gSZNBAkl8ttbeVj9HuSpdMTPr~gBQVuO3hhLIkPq6vHgENg7dIWhHjdGp8CHvV0G7uTiIPwNXH~rUGfarKOoNYz3z7qYFJJM50gK6YAbXQrLQMUPbxB3xtW-hKoGb1-aAdjWzRPINREvIPUIhtpJAusWaiCMmTUiIIhUgmL4mc7oC1ld4Mue76zyElZhruerb~n0XXCkkzxudE7zO2xVt~lDJZA4DyrLxT~6AkttdoIowFsr~SIMDY3UahhTNI34sWpm8gJ~~geK4t2y2QKSFrf0WEbnbMXYN2wYOQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
       "mintedOn": "30.09.2022",
@@ -290,6 +302,56 @@
       ],
       "name": "Disco Machines",
       "nftsTotal": 867
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Art",
+      "img": "https://s3-alpha-sig.figma.com/img/17c7/4acd/5b5ba867000004883ee7944815a839d4?Expires=1702857600&Signature=pufSG~TtTShFBWA3NN4MoaxpsrmtyR2mCuQq6RfsUD2NGentp4cBthnVnNQEbZvp7vaQ3cBiGxJmQG3O4poVy4Jwrpo8KzzChDbQkUwvh1Yuw36iVpjqtZaRiu9FlOJKEK3o-f77WSJzor7wjvTW~RAhaSNfCs9gRvBIJnhFVv89Fb2AwvJxFHoEujYplt3x~qaRMj7sir3KxOfNFR7ZDIrHLCD~rjJDexzdT~l3bHljhovQU6wkarL1UKn8R6V~FfxbxmihYxsvPMQgY9WsoQEx1M1sKcP1KQOGdfSX4zfh2KhRXWEBxP67ubmkTgk2F2z~MfQQVUPbb9M894aAcQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "icon": "https://www.svgrepo.com/show/532981/paintbrush.svg"
+    },
+    {
+      "id": "2",
+      "name": "Collectibles",
+      "img": "https://s3-alpha-sig.figma.com/img/5abc/712e/766f194b46ede2b0f9edcb91b3031413?Expires=1702857600&Signature=XT3lNwvd3TSFEGTzxCp5MhK4ku8ilbVmjoo1yugtlEqOw0sSgjGVlvJxv9Hn~xOcPJ88mCmIvk6eiTCRjAFD2~1eSNjBpUmWR8qdIhph3H6HUNFnktx29Pke73bMQ-hs38cH8FWJnqUV~NX~92wqbwiDiK5qHKr~4ijgVdFlE0gEpXQVXPoFXXqsx5Bv6wZriJ0f8pUsWznUPEU9ru97f5opvkZQFdJQ1S6gWo0Q0K45E3xNJfFDfxaSZxPU3xgsneVsnLzCtCAOfG2-1zZKU-9AImZX5fFIfOSvRSbZ6mHn~BacRWR15vtytLbm04P-zqO-q4WnARn9spk28rSJtA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "icon": "https://www.svgrepo.com/show/511155/swatches-palette.svg"
+    },
+    {
+      "id": "3",
+      "name": "Music",
+      "img": "https://s3-alpha-sig.figma.com/img/959b/c7d4/5f17e9b726f61f6cfc0519d7f88e673c?Expires=1702857600&Signature=dWxptf32UMD7zrse6ORa4FB4YLcYhewPZYtRQqZC1CXk1awdhKdGSR9IBK9LBDmvyQ6eKd5pnZTt2BESpL~3Tbulo6KUw6NLkS58CdHVk3a8X~1CBPtluDu2V2lzvz2CtTjpoeEj-meomzIw5XdJM3zqAieYdyfnQAevmdu8VhLRETAe8nEIFvKhCuUHWx3uo1tBdXAyonhxC-FkBH2B0lfFDd~5hAmKWMUtbFvtU9WVOPUBdK06DjZEK-QWxzGPRtWW6xoMpFRCG-ra~-w2wy1kmny7RoOsKSv0mLN7dhSsBQZFVcdvKIoOxwvzoqERvGXr0GsLzzjdprEz4T4Y2g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "icon": "https://www.svgrepo.com/show/521770/music-note-double.svg"
+    },
+    {
+      "id": "4",
+      "name": "Photography",
+      "img": "https://s3-alpha-sig.figma.com/img/121c/dda3/402804d9f103b0d623fd05724eb36ad4?Expires=1702857600&Signature=e-X2hMUWAbA37nrasm6gsH56neJ6dt-eIYvtEG5NfVn53L20hIoljvvMomIsUUjRWPmeOmD3sSbo3Ui7oAsPPjKloZbZj6S53ckak6hDtgh02v3B~9H3Bo3dorcVEk5GzGAG71qdjNV56o6Efk0ornM~jYGJx0U8eURgjHncriM0lp-CEubgjs8KxjUuQvzS6AqqqfmFeVn-L4uvGWXWLTJJrSphAU3aX8E7PgYXAyKQt8Md9qClIQtvMPYxk2UVCZCO~lYBO58bE10-lFTT0iIijovFIUzb7GqZ-bVmoRYjIY~3CbN5aHiiUk4vMNv91veBEA54UCv3WpFigqb1mg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "icon": "https://www.svgrepo.com/show/533059/camera.svg"
+    },
+    {
+      "id": "5",
+      "name": "Video",
+      "img": "https://s3-alpha-sig.figma.com/img/d708/098d/95de438163a608988f293d376aed4b32?Expires=1702857600&Signature=Spl-OHDqCs5VO-OvhBNmrWVRcVxwnyUa0HX~Y~e5nigfDKEUgR6~YTCA9OBclNHRKg87XvwJE2iKEG3Tuo2GXYL9gQsSpOtwzbsB8FJro8Hbgl6~BN5Xkm~GC~oHP-O6QLHgsYIctRSDmD-lLXlkZWgDl~hmdq3LKmOGJECa~xvtSUAPfb~sWw4nYulEtlCHxpiRC-CIAHwsizWDlkWpT5Ro3eqKRFXLZR3fsHlsBLvLQZMBokjqrTzHFD3cGLG7A7SBqD5QF1IL7QS7yTQwzKVIV6Q4Wi~8Kcui8TszGIJTtA69RbuShljzTkJHisuZWIYicjIAMQ7ynfgEHmB9pw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "icon": "https://www.svgrepo.com/show/500738/video-camera.svg"
+    },
+    {
+      "id": "6",
+      "name": "Utility",
+      "img": "https://s3-alpha-sig.figma.com/img/860e/12a6/f05337d9fd7c4b9443e910339f5ee0df?Expires=1702857600&Signature=lHW7uDgYn1niwF3Hn1gg932syI6DLJ~9nQasSHqPu9iFiIwVrI79zZCj9iB0m6dMe15-0d7aNPau1aDG6kgINKp1SmWpmBMvliG7SxuAdivnfwh~pSDY8EsYLIJwJF8aS~nj~WTJiqoJ11dsSQFhwO7sSYN9DtAglrtK0V6WrVutoK4QGuUUL1hxqZbPE3UTsK02fzD2jOC9~OsoZdElh4XPXj9DSaR7gxPDMVxo-T-D1SIlXTSScO79~aGCBHhhyEE4Ap-gjFOVxYBnDtfLb8iQq45oe16Z6moewe6ifJFWl6smR6x3D-Yaj062x1cdh1aQDz8xeS6Hisie4VfoRQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "icon": "https://www.svgrepo.com/show/487540/magic-wand.svg"
+    },
+    {
+      "id": "7",
+      "name": "Sport",
+      "img": "https://s3-alpha-sig.figma.com/img/7fd9/49cb/ad8f0cc76ced9954479f4bd6131e073b?Expires=1702857600&Signature=qI41aeYOXHjZMDmWm7u2eSCE55ph1ET-QFpBxSR2RvGBC71pcLGkztT5CvU0p57Mos1AywzJW01mN-uv1gNuj~edATRGsE1tgl6SYpLlkKjLxLO1XXatOKv3zwlnbwf4p2RGE9dkWATBvhqpeGN7JlJ3TFyZXVjKcrCCbZms4oRKQdYUg-63I8ym0AHfQtfFn0Lx8FgFebAlZXe33esXzYlnmc42mGWnOAICK-WXUN1qO31xBakVEaoC7xchJ4MCrygnopcfGamycYJ1RdZ-AMXyoZzB0Ugqvr6Q~4z62IxxqvFZA1Tf4l6dLf3ZeeWJExgTXlTUuEG3eUjxpHWKHQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "icon": "https://www.svgrepo.com/show/521500/basketball.svg"
+    },
+    {
+      "id": "8",
+      "name": "Virtrual Worlds",
+      "img": "https://s3-alpha-sig.figma.com/img/67e1/f6fe/e50c7ead5b8ab11fc9ca9b560fadd34e?Expires=1702857600&Signature=Q-LtJbp49f3ylAqq5ZJWSmt2ZoyYvjtmG0hr4h36Ow5Sw1Ohf6zvKIKUZTkDiScPB~1dFZQWSHw6TZznkc6NZTh1RpOjxdOkPO~HVgTY-669Ca8NaRfMdt2psS8UBy5wkC121ykT6s06wiZmNml2SqMSs7nx12HgOQV9n3gF4~6nzklN92~m3-BLWuZWh8aBR26pXRNxmGidbRIlqYHViOKzi7VU8P7YXVHn~MYuvuf3I54zia~73kmnMY88HvSiaSLtlkYf7MY-1BAyHCuFhnguqnR3I4FjyZUEuCnA9xSIwdL4Bicg~C3vUcS3wNr9SWvbauUFA9TzwaGnXZ8Sqg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "icon": "https://www.svgrepo.com/show/441248/planet.svg"
     }
   ]
 }
