@@ -4,6 +4,7 @@ import { classNames } from '@/shared/lib/helpers/classNames/classNames';
 import { HeroSection } from '@/widgets/hero';
 import { TrendingCollection } from '@/widgets/trending';
 import { TopRatedArtits } from '@/widgets/leaderboards';
+import { CategoriesBrowser } from '@/widgets/categories';
 
 interface MainPageProps {
   className?: string;
@@ -16,6 +17,7 @@ export const MainPage = memo(function MainPage(props: MainPageProps) {
       <HeroSection />
       <TrendingCollection />
       <TopRatedArtits />
+      <CategoriesBrowser />
     </div>
   );
 });
