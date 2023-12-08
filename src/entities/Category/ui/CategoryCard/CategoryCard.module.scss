@@ -1,6 +1,6 @@
 .CategoryCard {
   position: relative;
-  border-radius: 20px;
+  border-radius: var(--standard-border-radius);
   overflow: hidden;
   background: var(--bg-secondary-color);
   cursor: pointer;

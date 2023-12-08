@@ -20,5 +20,5 @@
 .imgBig,
 .number,
 .CollectionCard {
-  border-radius: 20px;
+  border-radius: var(--standard-border-radius);
 }

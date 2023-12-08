@@ -1,6 +1,6 @@
 .NFTCard {
   background: var(--bg-secondary-color);
-  border-radius: 20px;
+  border-radius: var(--standard-border-radius);
   overflow: hidden;
 }
 
