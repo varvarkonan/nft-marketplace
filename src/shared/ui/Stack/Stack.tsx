@@ -3,7 +3,7 @@ import cls from './Stack.module.scss';
 import { classNames } from '@/shared/lib/helpers/classNames/classNames';
 
 type StackDirection = 'row' | 'column';
-type StackGap = '0' | '5' | '10' | '12' | '15' | '20' | '25' | '30' | '40' | '50';
+type StackGap = '0' | '5' | '8' | '10' | '12' | '15' | '20' | '25' | '30' | '40' | '50';
 type StackAlignItems = 'start' | 'center' | 'end' | 'stretch' | 'baseline';
 type StackJustifyContent = 'start' | 'center' | 'end' | 'between' | 'around' | 'evenly';
 
@@ -20,6 +20,7 @@ interface StackProps {
 const gapMapper: Record<StackGap, string> = {
   '0': cls.gap0,
   '5': cls.gap5,
+  '8': cls.gap8,
   '10': cls.gap10,
   '12': cls.gap12,
   '15': cls.gap15,
