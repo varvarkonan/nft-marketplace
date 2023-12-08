@@ -5,37 +5,38 @@ import { AppImage } from '@/shared/ui/AppImage';
 import { Stack } from '@/shared/ui/Stack';
 import { Text } from '@/shared/ui/Text';
 import { Avatar } from '@/shared/ui/Avatar';
-import { type NFTSchema } from '../../model/types';
+import { $nft } from '../../model/store';
+import { useUnit } from 'effector-react';
 
 interface NFTCardProps {
   className?: string;
-  nft: NFTSchema;
 }
 
 export const NFTCard = memo(function NFTCard(props: NFTCardProps) {
-  const { className, nft } = props;
+  const { className } = props;
+  const [nft] = useUnit([$nft]);
   return (
-    <div className={classNames(cls.NFTCard, {}, [className])}>
+    <Stack direction="column" className={classNames(cls.NFTCard, {}, [className])}>
       <AppImage src={nft.img} width={330} height={296} />
-      <Stack>
-        <Stack>
-          <Text text={nft.name} />
-          <Stack>
-            <Avatar src={nft.artist.avatar} />
-            <Text text={nft.artist.name} />
+      <Stack direction="column" gap="25" maxWidth className={cls.nftInfo}>
+        <Stack direction="column" gap="5" maxWidth>
+          <Text text={nft.name} size="h5" />
+          <Stack gap="12">
+            <Avatar src={nft.artist.avatar} size={24} />
+            <Text text={nft.artist.name} family="space" />
           </Stack>
         </Stack>
-        <Stack>
-          <Stack>
+        <Stack direction="row" justify="between" maxWidth>
+          <Stack direction="column" gap="8">
             <Text text="Price" family="space" size="caption" color="gray" />
             <Text text={`${nft.price} ETH`} family="space" />
           </Stack>
-          <Stack>
-            <Text text="Highest Bid" family="space" size="caption" color="gray" />
-            <Text text={`${nft.highestBid} wETH`} family="space" />
+          <Stack direction="column" gap="8">
+            <Text text="Highest Bid" family="space" size="caption" color="gray" align="right" />
+            <Text text={`${nft.highestBid} wETH`} family="space" align="right" />
           </Stack>
         </Stack>
       </Stack>
-    </div>
+    </Stack>
   );
 });

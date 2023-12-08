@@ -1,3 +1,9 @@
 .NFTCard {
-  z-index: 1;
+  background: var(--bg-secondary-color);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.nftInfo {
+  padding: 20px 30px 25px;
 }
