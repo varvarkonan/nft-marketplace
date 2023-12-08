@@ -28,7 +28,7 @@ export const TrendingCollection = memo(function TrendingCollection(props: Trendi
   }
 
   return (
-    <Stack direction="column" justify="center" className={classNames(cls.TrendingCollection, {}, [className])}>
+    <Stack direction="column" justify="center" gap="50" className={classNames(cls.TrendingCollection, {}, [className])}>
       <Stack direction="column" gap="10">
         <Text size="h3" text="Trending Collection" />
         <Text text="Checkout our weekly updated trending collection." />
