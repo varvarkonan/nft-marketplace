@@ -18,6 +18,7 @@ import {
 } from '@/entities/Category';
 import { useUnit } from 'effector-react';
 import { Stack } from '@/shared/ui/Stack';
+import { Text } from '@/shared/ui/Text';
 
 interface CategoriesBrowserProps {
   className?: string;
@@ -53,8 +54,11 @@ export const CategoriesBrowser = memo(function CategoriesBrowser(props: Categori
   }
 
   return (
-    <Stack className={classNames(cls.CategoriesBrowser, {}, [className])}>
-      {...categories.map((category, index) => renderCategoryCard(category, icons[index]))}
+    <Stack direction="column" gap="50">
+      <Text text="Browse Categories" size="h3" />
+      <Stack gap="30" className={classNames(cls.CategoriesBrowser, {}, [className])}>
+        {...categories.map((category, index) => renderCategoryCard(category, icons[index]))}
+      </Stack>
     </Stack>
   );
 });
