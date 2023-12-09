@@ -2,7 +2,7 @@ import { type Artist } from '@/entities/Artist';
 
 export type NFTTags = 'animation' | 'illustration' | 'moon';
 
-export interface NFTSchema {
+export interface NFT {
   id: string;
   artistId: string;
   artist: Artist;
