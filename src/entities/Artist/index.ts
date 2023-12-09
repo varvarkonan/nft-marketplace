@@ -11,3 +11,5 @@ export {
   loadArtistTriggered,
   loadSomeArtistsTriggered,
 } from './model/store';
+
+export { ArtistCard } from './ui/ArtistCard/ArtistCard';
