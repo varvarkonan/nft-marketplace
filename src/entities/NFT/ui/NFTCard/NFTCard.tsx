@@ -5,16 +5,16 @@ import { AppImage } from '@/shared/ui/AppImage';
 import { Stack } from '@/shared/ui/Stack';
 import { Text } from '@/shared/ui/Text';
 import { Avatar } from '@/shared/ui/Avatar';
-import { $nft } from '../../model/store';
-import { useUnit } from 'effector-react';
+import { type NFT } from '../../model/types';
 
 interface NFTCardProps {
   className?: string;
+  nft: NFT;
 }
 
 export const NFTCard = memo(function NFTCard(props: NFTCardProps) {
-  const { className } = props;
-  const [nft] = useUnit([$nft]);
+  const { className, nft } = props;
+
   return (
     <Stack direction="column" className={classNames(cls.NFTCard, {}, [className])}>
       <AppImage src={nft.img} width={330} height={296} />

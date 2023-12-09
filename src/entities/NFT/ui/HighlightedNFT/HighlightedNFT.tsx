@@ -2,7 +2,7 @@ import { memo, useEffect } from 'react';
 import cls from './HighlightedNFT.module.scss';
 import { classNames } from '@/shared/lib/helpers/classNames/classNames';
 import { useUnit } from 'effector-react';
-import { $nft, getNftByIdFx, loadTriggered } from '../../model/store';
+import { $nft, getNftByIdFx, loadNftByIdTriggered } from '../../model/store';
 import { Stack } from '@/shared/ui/Stack';
 import { Text } from '@/shared/ui/Text';
 import { Avatar } from '@/shared/ui/Avatar';
@@ -17,7 +17,7 @@ export const HighlightedNFT = memo(function HighlightedNFT(props: HighlightedNFT
   const [nft, isLoading] = useUnit([$nft, getNftByIdFx.pending]);
 
   useEffect(() => {
-    loadTriggered(1);
+    loadNftByIdTriggered(1);
   }, []);
 
   if (isLoading) {

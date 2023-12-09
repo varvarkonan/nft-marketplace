@@ -23,7 +23,7 @@ const defaultState: NFT = {
 };
 
 export const loadNftByIdTriggered = createEvent<number>();
-export const loadAmountOfNftsTriggered = createEvent<number>();
+export const loadSomeNftsTriggered = createEvent<number>();
 
 export const getNftByIdFx = createEffect(async (nftId: number) => {
   const res = await getNftById({ nftId, _expand: 'artist' });
@@ -45,7 +45,7 @@ sample({
 });
 
 sample({
-  clock: loadAmountOfNftsTriggered,
+  clock: loadSomeNftsTriggered,
   fn: (amount: number) => amount,
   target: getSomeNftsFx,
 });
